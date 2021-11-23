@@ -1,15 +1,12 @@
-//import react into the bundle
+//Import React
 import React from "react";
 import ReactDOM from "react-dom";
 
-//include bootstrap npm library into the bundle
-import "bootstrap";
-
-//include your index.scss file into the bundle
+//Import .SCSS
 import "../styles/index.scss";
 
-//import your own components
+//Import Components
 import Home from "./component/home.jsx";
 
-//render your react application
+//Render React
 ReactDOM.render(<Home />, document.querySelector("#app"));
