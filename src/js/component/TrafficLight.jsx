@@ -1,11 +1,9 @@
-//Import React
 import React, { useState } from "react";
 
-//Components
 const TrafficLight = () => {
 	//Hooks
 	const [color, setColor] = useState("");
-	//Whenever a light is clicked, the setColor function is called and adds the class "light on"
+	
 	return (
 		<>
 			<div className="back">
